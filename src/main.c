@@ -20,7 +20,9 @@ int count_letter_in_sentence(const char *sentence, char letter) {
     char lower_letter = tolower(letter);
     
     for (int i = 0; sentence[i] != '\0'; i++) {
-        if (tolower(sentence[i]) == lower_letter) {
+        // Преобразуем каждый символ предложения в нижний регистр
+        char current = tolower(sentence[i]);
+        if (current == lower_letter) {
             count++;
         }
     }
