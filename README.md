@@ -1,11 +1,19 @@
-# Overview
+# Lab2 Task1 - Letter Counter
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+## Overview
+Программа для подсчета количества заданной буквы в трех предложениях. 
+Разработана в рамках лабораторной работы №2 по курсу "Технологии программирования".
 
-# Usage
+## Author
+Кальчевская Полина, группа 10
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
-
-# Building
-
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+## Building
+Для компиляции программы выполните:
+```bash
+gcc -o labrabota2-1 src/main.c
+```
+## Usage
+Запуск программы:
+```bash
+./labrabota2-1 
+```
